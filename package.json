@@ -1,0 +1,24 @@
+{
+  "name": "magneto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "three": "^0.111.0",
+    "three-orbit-controls": "^82.1.0"
+  },
+  "webpack": {
+    "mode": "development"
+  }
+}
